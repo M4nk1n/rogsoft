@@ -3,7 +3,7 @@
 # build script for rogsoft project
 
 MODULE="frpc"
-VERSION="2.0"
+VERSION="2.1"
 TITLE="frpc内网穿透"
 DESCRIPTION="支持多种协议的内网穿透软件"
 HOME_URL="Module_frpc.asp"

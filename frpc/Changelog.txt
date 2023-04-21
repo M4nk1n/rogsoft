@@ -1,5 +1,9 @@
 Koolshare Frpc for hnd router Changelog
 ===========================================
+
+2.1 ( 2023-04-21 14:35 )
+   - Update	更新frpc二进制到 v0.48.0
+
 2.0 ( 2022-07-11 14:21 )
    - Update	更新frpc二进制到 v0.44.0
 

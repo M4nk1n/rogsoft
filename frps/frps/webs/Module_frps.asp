@@ -165,7 +165,7 @@ function menu_hook(title, tab) {
 }
 function version_show(){
 	$.ajax({
-		url: 'https://koolshare.ngrok.wang/frps/config.json.js',
+		url: 'https://raw.githubusercontent.com/M4nk1n/rogsoft/main/frps/config.json.js',
 		type: 'GET',
 		dataType: 'jsonp',
 		success: function(res) {
@@ -330,7 +330,7 @@ function get_log(action){
 														<div style="float: right;margin-top:5px;margin-right:30px;">
 															<a type="button" href="https://github.com/fatedier/frp" target="_blank" class="ks_btn" style="cursor: pointer;border:none;" >frp开源项目</a>
 															<a type="button" href="https://koolshare.cn/thread-65379-1-1.html" target="_blank" class="ks_btn" style="cursor: pointer;margin-left:5px;border:none" >服务器搭建教程</a>
-															<a type="button" href="https://raw.githubusercontent.com/koolshare/rogsoft/master/frps/Changelog.txt" target="_blank" class="ks_btn" style="cursor: pointer;margin-left:5px;border:none" >更新日志</a>
+															<a type="button" href="https://github.com/M4nk1n/rogsoft/blob/main/frps/Changelog.txt" target="_blank" class="ks_btn" style="cursor: pointer;margin-left:5px;border:none" >更新日志</a>
 															<a type="button" class="ks_btn" href="javascript:void(0);" onclick="get_log(1)" style="cursor: pointer;margin-left:5px;border:none">查看日志</a>
 														</div>
 													</td>
